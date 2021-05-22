@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+main h2{
+    font-size: 28px;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+}
+
+.miTarjeta {
+    background-color:rgb(250, 195, 214);
+    text-align: center;
+    border-radius: 30px;
+    
+}
+/**
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+    margin: 2px 5px;
+    padding: 3px;
+}
+
+**/
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul li{
+    
+    background-color: coral;
+
+    list-style: none;
+    margin: 2px 5px;
+    padding: 3px;
+    
+}
+ul li a {
+   
+    text-decoration: none;
+    color: rgb(83, 3, 3);
+    
+
+
+
+
+}
+#menu a:hover{
+    color: rgb(253, 190, 74);}
+
+/*clases para jquery*/
+
+.vertical{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.horizontal{
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.fondo1{
+    background-color: coral;
+}
+
+.fondo2{
+    background-color: cornsilk;
+}
+
+p{
+    font-family: 'Courgette', cursive;
+}
+
+img{
+    border-radius: 30px;
+    
+}
